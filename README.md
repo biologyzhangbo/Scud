@@ -1,4 +1,4 @@
-# GPU-MLM-GWAS: GPU-accelerated Mixed Linear Model for Genome-Wide Association Studies
+# Scud: GPU-accelerated Mixed Linear Model for Genome-Wide Association Studies
 
 High-performance genome-wide association analysis tool based on CuPy optimization, supporting mixed linear models and CUDA acceleration.
 
@@ -16,12 +16,12 @@ High-performance genome-wide association analysis tool based on CuPy optimizatio
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/gpu-mlm-gwas.git
-cd gpu-mlm-gwas
+git clone https://github.com/biologyzhangbo/Scud.git
+cd Scud
 
 # Install dependencies (choose based on your CUDA version)
 pip install cupy-cuda11x  # CUDA 11.x
 # or pip install cupy-cuda12x  # CUDA 12.x
 
 pip install -r requirements.txt
-pip install -e .
+pip install .
